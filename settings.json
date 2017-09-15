@@ -1,0 +1,37 @@
+// Place your settings in this file to overwrite the default settings
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.statusBar.visible": false,
+    "workbench.activityBar.visible": false,
+    "editor.lineHeight": 40,
+    "editor.fontFamily": "Hasklig",
+    "editor.fontLigatures": true,
+    "editor.cursorStyle": "line-thin",
+    "window.zoomLevel": 0,
+    "extensions.autoUpdate": true,
+    "files.trimTrailingWhitespace": true,
+    "files.insertFinalNewline": true,
+    "auto-close-tag.fullMode": true,
+    "editor.tabSize": 2,
+    "terminal.integrated.fontSize": 17,
+    "editor.fontSize": 13,
+    // "gitlens.blame.file.lineHighlight.enabled": false,
+    // "gitlens.codeLens.enabled": false,
+    "editor.renderIndentGuides": false,
+    "workbench.commandPalette.preserveInput": true,
+    "emmet.includeLanguages": {
+        "javascript": "javascriptreact",
+        "vue-html": "html"
+    },
+    "workbench.colorTheme": "Ayu Mirage",
+    "editor.insertSpaces": true,
+    "editor.tabCompletion": true,
+    "workbench.startupEditor": "newUntitledFile",
+    "explorer.sortOrder": "mixed",
+    "window.titleBarStyle": "custom",
+    "editor.fontWeight": "normal",
+    "workbench.fontAliasing": "antialiased",
+    "workbench.editor.showTabs": true,
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true
+}
