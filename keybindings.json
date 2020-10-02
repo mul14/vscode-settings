@@ -4,7 +4,7 @@
         "command": "editor.action.duplicateSelection"
     },
     {
-        "key": "shift+alt+cmd+0",
+        "key": "ctrl+alt+cmd+0",
         "command": "workbench.action.zoomReset"
     },
     {
@@ -47,7 +47,7 @@
         "command": "workbench.action.toggleActivityBarVisibility"
     },
     {
-        "key": "shift+alt+cmd+=",
+        "key": "ctrl+alt+cmd+=",
         "command": "workbench.action.zoomIn"
     },
     {
@@ -55,7 +55,7 @@
         "command": "-workbench.action.zoomIn"
     },
     {
-        "key": "shift+alt+cmd+-",
+        "key": "ctrl+alt+cmd+-",
         "command": "workbench.action.zoomOut"
     },
     {
@@ -66,10 +66,6 @@
         "key": "cmd+backspace",
         "command": "editor.action.deleteLines",
         "when": "textInputFocus && !editorReadonly"
-    },
-    {
-        "key": "alt+q",
-        "command": "workbench.action.terminal.toggleTerminal"
     },
     {
         "key": "cmd+t",
@@ -324,5 +320,60 @@
     {
         "key": "cmd+shift+o",
         "command": "workbench.action.showAllSymbols",
-    }
+    },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.terminal.toggleTerminal"
+    },
+    // {
+    //     "key": "alt+q",
+    //     "command": "extension.multiCommand.execute" ,
+    //     "args": { "command": "multiCommand.terminal.maximize" },
+    //     "when": "!activePanel"
+    // },
+    {
+        "key": "alt+q",
+        "command": "workbench.action.terminal.toggleTerminal" ,
+        "when": "activePanel"
+    },
+    {
+        "key": "ctrl+t",
+        "command": "editor.emmet.action.wrapWithAbbreviation"
+    },
+    {
+        "key": "cmd+k u",
+        "command": "editor.action.transformToUppercase"
+    },
+    {
+        "key": "alt+up",
+        "command": "editor.emmet.action.balanceOut"
+    },
+    {
+        "key": "alt+down",
+        "command": "editor.emmet.action.balanceIn"
+    },
+    {
+        "key": "cmd+alt+l",
+        "command": "editor.action.formatDocument",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+alt+shift+l",
+        "command": "editor.action.formatDocument.multiple",
+        "when": "editorTextFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+q",
+        "command": "-workbench.action.quit"
+    },
+    {
+        "key": "cmd+shift+k",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
+    {
+        "key": "cmd+k",
+        "command": "workbench.action.terminal.clear",
+        "when": "terminalFocus"
+    },
 ]
