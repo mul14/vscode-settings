@@ -1,0 +1,20 @@
+{
+	"Alpine.js CDN": {
+		"prefix": "alpine",
+		"body": "<script src=\"https://cdn.jsdelivr.net/gh/alpinejs/alpine@v2.7.0/dist/alpine.min.js\" defer></script>"
+	},
+	"Tailwind CSS CDN": {
+		"prefix": "tail",
+		"body": "<link href=\"https://unpkg.com/tailwindcss@^1.0/dist/tailwind.min.css\" rel=\"stylesheet\">"
+	},
+	"input": {
+		"prefix": "bs-input",
+		"body": [
+			"<div class=\"form-group\">",
+			"  <label for=\"\" class=\"label\">$1</label>",
+			"  <input type=\"text\" class=\"form-control\">$0",
+			"</div>",
+		],
+		"description": ""
+	},
+}
