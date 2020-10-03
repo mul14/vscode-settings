@@ -1,0 +1,54 @@
+{
+	"fmt.Println": {
+		"prefix": "pr",
+		"body": [
+			"fmt.Println($0)",
+		],
+	},
+	"fmt.Println + var": {
+		"prefix": "prr",
+		"body": [
+			"fmt.Println(\"${0:var}: \", ${0:var})",
+		],
+	},
+	"main": {
+		"prefix": "main",
+		"body": [
+			"func main() {",
+			"\t$0",
+			"}",
+		],
+	},
+	"struct": {
+		"prefix": "struct",
+		"body": [
+			"type ${1:Name} struct {",
+			"\t$0",
+			"}",
+		],
+	},
+	"struct shortcut": {
+		"prefix": "st",
+		"body": [
+			"type ${1:Name} struct {",
+			"\t$0",
+			"}",
+		],
+	},
+	"type interface": {
+		"prefix": "interface",
+		"body": [
+			"type ${1:Name} interface {",
+			"\t$0",
+			"}",
+		],
+	},
+	"Method": {
+		"prefix": "met",
+		"body": [
+			"func (${2:type}) ${1:name}() {",
+			"\t$0",
+			"}",
+		],
+	},
+}
