@@ -1,0 +1,61 @@
+{
+	"Print to console": {
+		"prefix": "cl",
+		"body": [
+			"console.log($0)"
+		],
+		"description": "Log output to console"
+	},
+	"class": {
+		"prefix": "class",
+		"body": [
+			"class ${1:NamaClass} {",
+			"  constructor($2) {",
+			"     $0",
+			"  }",
+			"}"
+		],
+	},
+	"Vue.js: Vuex import": {
+		"prefix": "vuexmap",
+		"body": [
+			"import { mapState, mapMutations, mapActions, mapGetters } from 'vuex'"
+		],
+	},
+	"Vue.js: setup": {
+		"prefix": "setup",
+		"body": [
+			"setup() {",
+			"  const data = reactive({",
+			"    $0",
+			"  })",
+			"",
+			"  return {",
+			"    data,",
+			"  }",
+			"},",
+		]
+	},
+	"Vue.js: data": {
+		"prefix": "data",
+		"body": [
+			"data() {",
+			"  return {",
+			"    $0",
+			"  }",
+			"},",
+		]
+	},
+	"Vue.js: methods": {
+		"prefix": "methods",
+		"body": [
+			"methods: {",
+			"  $0",
+			"},",
+		]
+	},
+	"jQuery $": {
+		"prefix": "$",
+		"body": "$(${1:this}).$0"
+	},
+}
